@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from '../components/Navbar.vue';
+import Testing from '../components/Highlight-Hero.vue';
 </script>
 
 <template>
@@ -7,10 +8,7 @@ import Navbar from '../components/Navbar.vue';
     <Navbar />
   </header>
   <main>
-    <h1>Test</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quae?
-    </p>
+    <Testing />
   </main>
   <footer>
     <p>INi footer</p>
