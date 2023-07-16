@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@jamescoyle/svg-icon": "^0.1.1",
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.2.96",
+    "@mdi/light-js": "^0.2.63",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "fibers": "^5.0.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "vite": "^4.3.9"
+  }
+}
