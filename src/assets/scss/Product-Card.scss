@@ -1,0 +1,98 @@
+.featured-products-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 3rem;
+  // background-image: url('../assets/images/svgs/waves-1.svg');
+
+  .featured-product-title {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+
+    h1 {
+      width: 95%;
+      margin: auto;
+      font-family: 'Raleway';
+      font-size: 2.25rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  .featured-product-list {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: $arrow;
+  }
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+
+  .product-name {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+  }
+
+  .product-review {
+    .ready-stock {
+      color: #2dec2d;
+    }
+
+    .star-icon {
+      color: #fdcc0d;
+    }
+
+    .reviews {
+      font-size: 0.825rem;
+      color: $arrow;
+    }
+  }
+
+  .product-price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+
+    p {
+      font-size: 1.75rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      background-color: $txt-color;
+      border-radius: $corner-radius;
+      padding: 8px;
+      color: white;
+    }
+  }
+
+  .product-img {
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: $corner-radius;
+    }
+  }
+}

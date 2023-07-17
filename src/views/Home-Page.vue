@@ -1,6 +1,8 @@
 <script setup>
+import Test from '../components/___testing___.vue';
 import Navbar from '../components/Navbar.vue';
-import Testing from '../components/Highlight-Hero.vue';
+import Hero from '../components/Highlight-Hero.vue';
+import featuredProduct from '../components/Featured-Product.vue';
 </script>
 
 <template>
@@ -8,7 +10,9 @@ import Testing from '../components/Highlight-Hero.vue';
     <Navbar />
   </header>
   <main>
-    <Testing />
+    <Hero />
+    <featuredProduct />
+    <!-- <Test /> -->
   </main>
   <footer>
     <p>INi footer</p>

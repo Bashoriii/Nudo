@@ -1,0 +1,43 @@
+.highlight-slider {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+
+  .swiper.swiper-initialized {
+    width: 95%;
+  }
+
+  // Highlight cards per-image
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $corner-radius;
+  }
+
+  .highlight-img-1 {
+    object-position: 100% 20%;
+  }
+
+  .highlight-img-2 {
+    object-position: 100% 6%;
+  }
+
+  .highlight-img-3 {
+    object-position: 100% 6%;
+  }
+}
+
+.swiper.swiper-initialized {
+  width: 100%;
+  height: 100%;
+}

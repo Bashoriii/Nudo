@@ -2,6 +2,10 @@
   <div class="highlight-slider">
     <swiper
       :spaceBetween="30"
+      :autoplay="{
+        delay: 3500,
+        disableOnInteraction: false,
+      }"
       :pagination="{
         clickable: true,
       }"
@@ -30,7 +34,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 export default {
   components: {
@@ -39,7 +43,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination],
+      modules: [Autoplay, Pagination],
     };
   },
 };
