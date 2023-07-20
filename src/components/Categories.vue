@@ -5,13 +5,14 @@
     </div>
     <div class="category-container">
       <div class="category-list">
-        <div v-for="i in 4" :key="i" class="category-item">
+        <RouterLink to="#" v-for="i in 4" :key="i" class="category-item">
           <img
             src="../assets/images/hoodies/orange-crewneck.png"
             alt="hoodie"
+            class="category-img"
           />
           <h1 class="category-name">Hoodie</h1>
-        </div>
+        </RouterLink>
       </div>
       <div class="category-poster">
         <img
