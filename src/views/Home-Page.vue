@@ -16,7 +16,5 @@ import category from '../components/Categories.vue';
     <neppoProfile />
     <category />
   </main>
-  <footer>
-    <p>INi footer</p>
-  </footer>
+  <footer></footer>
 </template>
