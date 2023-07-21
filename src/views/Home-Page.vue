@@ -1,8 +1,9 @@
 <script setup>
-import Test from '../components/___testing___.vue';
 import Navbar from '../components/Navbar.vue';
 import Hero from '../components/Highlight-Hero.vue';
 import featuredProduct from '../components/Featured-Product.vue';
+import neppoProfile from '../components/Neppo-Profile.vue';
+import category from '../components/Categories.vue';
 </script>
 
 <template>
@@ -12,7 +13,8 @@ import featuredProduct from '../components/Featured-Product.vue';
   <main>
     <Hero />
     <featuredProduct />
-    <!-- <Test /> -->
+    <neppoProfile />
+    <category />
   </main>
   <footer>
     <p>INi footer</p>

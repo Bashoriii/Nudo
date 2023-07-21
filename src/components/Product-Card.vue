@@ -73,6 +73,7 @@ import creamPants from '@/assets/images/featuredImages/cream-chino.png';
 import brownPants from '@/assets/images/featuredImages/brown-chino.png';
 import strapSandal from '@/assets/images/featuredImages/strap-sandal.png';
 import unisexSandal from '@/assets/images/featuredImages/unisex-sandal.png';
+import blue from '@/assets/images/hoodies/orange-crewneck.png';
 
 export default {
   components: {

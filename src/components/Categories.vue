@@ -14,11 +14,7 @@
         </div>
       </div>
       <div class="category-poster">
-        <img
-          src="../assets/images/voucher-discount.jpeg"
-          class=""
-          alt="poster"
-        />
+        <img src="../assets/images/cat-poster-2.jpeg" class="" alt="poster" />
       </div>
     </div>
   </div>

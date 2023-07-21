@@ -25,11 +25,11 @@
             doesn't fit on you.
           </p>
         </div>
-        <div class="profile-btn">
+        <!-- <div class="profile-btn">
           <button class="see-catalogue-btn">
             See Catalogue <span class="icon-circle-right"></span>
           </button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
