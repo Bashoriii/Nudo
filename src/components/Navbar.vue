@@ -1,10 +1,12 @@
 <template>
   <nav class="neppo-main-nav">
     <div class="neppo-logo">
-      <h1>Nudo</h1>
+      <h1>Neppo</h1>
     </div>
     <div class="neppo-nav-list">
-      <RouterLink to="#" v-for="nav in navbar" :key="nav">{{ nav }}</RouterLink>
+      <RouterLink to="#" v-for="nav in navbar" :key="nav" class="nav-item">
+        {{ nav }}
+      </RouterLink>
     </div>
     <div class="neppo-nav-icons">
       <div class="search-box">
