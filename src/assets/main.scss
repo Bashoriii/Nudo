@@ -13,9 +13,14 @@
 @import './global-variables';
 @import './normalize';
 
+// Import Icomoon Icons
+@import '../assets/fonts/icomoon-icon.css';
+
 // Import component style
 @import './scss/Navbar.scss';
 @import './scss/Highlight-Hero.scss';
 @import './scss/Product-Card.scss';
 @import './scss/Neppo-Profile.scss';
 @import './scss/Categories.scss';
+@import './scss/News-Letter.scss';
+@import './scss/Footer.scss';

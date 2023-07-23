@@ -1,0 +1,89 @@
+.neppo-footer-section {
+  width: 100%;
+  height: auto;
+}
+
+.footer-content-list {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 2rem 0;
+  border-top: 2px solid $arrow;
+  display: flex;
+
+  .footer-logo {
+    width: 70%;
+    height: auto;
+
+    h1 {
+      width: 30%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      width: 60%;
+      height: auto;
+    }
+  }
+
+  ul {
+    width: 25%;
+    height: auto;
+    margin: 0;
+
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .footer-payment-methods {
+    .payment-methods-icon {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      li {
+        &:first-child {
+          width: 30px;
+          height: 30px;
+        }
+
+        width: 40px;
+        height: 40px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.footer-content-socials {
+  width: 95%;
+  height: auto;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .footer-policy {
+    display: flex;
+
+    p {
+      margin-left: 5px;
+    }
+  }
+
+  .footer-socials {
+    span {
+      margin-left: 1rem;
+      font-size: 1.3rem;
+      border: 1px solid $arrow;
+      border-radius: 50%;
+      padding: 8px;
+    }
+  }
+}

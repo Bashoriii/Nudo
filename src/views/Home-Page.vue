@@ -4,6 +4,8 @@ import Hero from '../components/Highlight-Hero.vue';
 import featuredProduct from '../components/Featured-Product.vue';
 import neppoProfile from '../components/Neppo-Profile.vue';
 import category from '../components/Categories.vue';
+import newsLetter from '../components/News-Letter.vue';
+import footerContent from '../components/Footer.vue';
 </script>
 
 <template>
@@ -15,6 +17,9 @@ import category from '../components/Categories.vue';
     <featuredProduct />
     <neppoProfile />
     <category />
+    <newsLetter />
   </main>
-  <footer></footer>
+  <footer>
+    <footerContent />
+  </footer>
 </template>
