@@ -28,8 +28,6 @@ import hoodie from '../assets/images/hoodies/orange-crewneck.png';
 import tshirt from '../assets/images/t-shirts/pockets-tshirt.png';
 import jacket from '../assets/images/jackets/harrington-jacket.png';
 import sandal from '../assets/images/sandals/chunky-sandal.png';
-import test from '../assets/images/jackets/green-jacket.png';
-
 export default {
   data() {
     return {

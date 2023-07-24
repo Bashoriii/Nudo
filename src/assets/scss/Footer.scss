@@ -15,25 +15,37 @@
     width: 70%;
     height: auto;
 
-    h1 {
-      width: 30%;
-      height: auto;
-      margin-bottom: 1rem;
+    a {
+      font-family: 'Raleway';
+      font-weight: 400;
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
 
     p {
       width: 60%;
       height: auto;
+      margin-top: 1rem;
     }
   }
 
   ul {
-    width: 25%;
+    width: 26%;
     height: auto;
     margin: 0;
 
     h3 {
+      letter-spacing: 1px;
       margin-bottom: 1rem;
+    }
+
+    li {
+      margin-bottom: 8px;
+
+      a {
+        color: $txt-color;
+      }
     }
   }
 
@@ -72,15 +84,40 @@
   .footer-policy {
     display: flex;
 
+    .footer-copyright-icon {
+      width: 20px;
+      height: 20px;
+    }
+
     p {
-      margin-left: 5px;
+      font-size: 0.825rem;
+      margin-left: 3px;
+    }
+
+    .footer-terms-of-use,
+    .footer-privacy-policy {
+      display: inline-block;
+
+      &::after {
+        content: '';
+        display: block;
+        border-bottom: 1px solid $txt-color;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-out;
+        transform-origin: bottom right; // Slides from left to right
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left; // Slides from left to right
+      }
     }
   }
 
   .footer-socials {
     span {
       margin-left: 1rem;
-      font-size: 1.3rem;
+      font-size: 1rem;
       border: 1px solid $arrow;
       border-radius: 50%;
       padding: 8px;

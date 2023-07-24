@@ -38,7 +38,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   outline: none;
-  color: black;
+  color: $txt-color;
 }
 
 textarea {
@@ -53,6 +53,7 @@ h5,
 h6,
 p {
   margin: 0;
+  color: $txt-color;
 }
 
 ul {

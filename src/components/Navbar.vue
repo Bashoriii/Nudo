@@ -1,7 +1,7 @@
 <template>
   <nav class="neppo-main-nav">
     <div class="neppo-logo">
-      <h1>Neppo</h1>
+      <RouterLink to="#">Neppo</RouterLink>
     </div>
     <div class="neppo-nav-list">
       <RouterLink to="#" v-for="nav in navbar" :key="nav" class="nav-item">
@@ -17,12 +17,12 @@
           <input type="text" placeholder="Search" />
         </div>
       </div>
-      <div class="cart-box icons">
+      <RouterLink to="#" class="cart-box icons">
         <svg-icon type="mdi" :path="mdiCart"></svg-icon>
-      </div>
-      <div class="login-box icons">
+      </RouterLink>
+      <RouterLink to="#" class="login-box icons">
         <svg-icon type="mdi" :path="mdiAccount"></svg-icon>
-      </div>
+      </RouterLink>
     </div>
   </nav>
 </template>
