@@ -1,12 +1,15 @@
-<!-- <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import Home from './views/Home-Page.vue';
+<script setup>
+import { RouterView } from 'vue-router';
+// import Navbar from './components/Navbar.vue';
+// import footerContent from './components/Footer.vue';
 </script>
 
 <template>
-  <Home />
-
+  <!-- <header>
+    <Navbar />
+  </header> -->
   <RouterView />
+  <!-- <footer>
+    <footerContent />
+  </footer> -->
 </template>
-
-<style scoped></style> -->

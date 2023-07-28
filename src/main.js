@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import { register } from 'swiper/element/bundle'; // Swiper.js
-import App from './views/Home-Page.vue';
+import App from './App.vue';
 import router from './router';
 
 import './assets/main.scss';
