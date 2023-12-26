@@ -4,16 +4,23 @@
   margin-top: 5rem;
 
   .featured-product-title {
-    width: 100%;
+    width: 95%;
     height: 100%;
-    margin-bottom: 2rem;
+    margin: auto auto 2rem auto;
+    display: flex;
+    justify-content: space-between;
 
     h1 {
-      width: 95%;
-      margin: auto;
       font-family: 'Raleway';
       font-size: 2.25rem;
       letter-spacing: 1px;
+    }
+
+    a {
+      font-size: 1rem;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: end;
     }
   }
 
@@ -75,7 +82,7 @@
     a {
       display: flex;
       align-items: center;
-      background-color: $txt-color;
+      background-color: $regular-txt;
       border-radius: $corner-radius;
       padding: 8px;
       color: white;

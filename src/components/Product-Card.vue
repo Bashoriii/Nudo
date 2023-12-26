@@ -9,7 +9,7 @@
   >
     <swiper-slide
       v-for="item in productDetail"
-      :key="img"
+      :key="item.id"
       class="neppo-featured-product cards"
     >
       <div class="product-img">
@@ -22,7 +22,6 @@
         <p class="ready-stock">In Stock</p>
         <svg-icon
           v-for="i in 4"
-          :key="i"
           type="mdi"
           :path="mdiStar"
           class="star-icon"
@@ -32,7 +31,7 @@
           :path="mdiStarHalfFull"
           class="star-icon"
         ></svg-icon>
-        <p class="reviews">({{ item.star }} - {{ item.review }} reviews)</p>
+        <p class="reviews">{{ item.star }} ({{ item.review }} reviews)</p>
       </div>
       <div class="product-price go-cart">
         <p>{{ item.price }}</p>
@@ -73,7 +72,7 @@ import creamPants from '@/assets/images/featuredImages/cream-chino.png';
 import brownPants from '@/assets/images/featuredImages/brown-chino.png';
 import strapSandal from '@/assets/images/featuredImages/strap-sandal.png';
 import unisexSandal from '@/assets/images/featuredImages/unisex-sandal.png';
-import blue from '@/assets/images/hoodies/orange-crewneck.png';
+// import blue from '@/assets/images/hoodies/orange-crewneck.png';
 
 export default {
   components: {
@@ -94,6 +93,7 @@ export default {
 
       productDetail: [
         {
+          id: 1,
           img: chocoCropped,
           title: 'Choco Coats',
           price: '$99',
@@ -101,6 +101,7 @@ export default {
           review: '75',
         },
         {
+          id: 2,
           img: chinoCropped,
           title: 'Chino Coats',
           price: '$89',
@@ -108,6 +109,7 @@ export default {
           review: '71',
         },
         {
+          id: 3,
           img: darkLongsleeve,
           title: 'Dark Longsleeve',
           price: '$49',
@@ -115,6 +117,7 @@ export default {
           review: '27',
         },
         {
+          id: 4,
           img: darkHoodie,
           title: 'Dark Hoodie',
           price: '$59',
@@ -122,6 +125,7 @@ export default {
           review: '97',
         },
         {
+          id: 5,
           img: parka,
           title: 'Parka Jacket',
           price: '$129',
@@ -129,6 +133,7 @@ export default {
           review: '33',
         },
         {
+          id: 6,
           img: tracktop,
           title: 'Tracktop Indigo',
           price: '$119',
@@ -136,6 +141,7 @@ export default {
           review: '31',
         },
         {
+          id: 7,
           img: pocketTshirt,
           title: 'Pocket T-Shirt',
           price: '$29',
@@ -143,6 +149,7 @@ export default {
           review: '66',
         },
         {
+          id: 8,
           img: linen,
           title: 'Linen T-Shirt',
           price: '$29',
@@ -150,6 +157,7 @@ export default {
           review: '67',
         },
         {
+          id: 9,
           img: creamPants,
           title: 'Cream Pants',
           price: '$35',
@@ -157,6 +165,7 @@ export default {
           review: '61',
         },
         {
+          id: 10,
           img: brownPants,
           title: 'Brown Pants',
           price: '$35',
@@ -164,6 +173,7 @@ export default {
           review: '67',
         },
         {
+          id: 11,
           img: strapSandal,
           title: 'Strap Sandal',
           price: '$69',
@@ -171,6 +181,7 @@ export default {
           review: '60',
         },
         {
+          id: 12,
           img: unisexSandal,
           title: 'Unisex Sandal',
           price: '$69',

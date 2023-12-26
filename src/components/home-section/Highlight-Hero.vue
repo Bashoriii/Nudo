@@ -1,5 +1,5 @@
 <template>
-  <div class="highlight-slider">
+  <div class="highlight-slider section">
     <swiper
       :spaceBetween="30"
       :autoplay="{

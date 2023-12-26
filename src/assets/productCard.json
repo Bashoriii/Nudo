@@ -1,0 +1,58 @@
+[
+  {
+    "img": "chocoCropped",
+    "title": "Choco Coats",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "chinoCropped",
+    "title": "Chino Coats",
+    "price": "$89",
+    "star": "4.6",
+    "review": "71"
+  },
+  {
+    "img": "darkLongsleeve",
+    "title": "Dark Longsleeve",
+    "price": "$49",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "darkHoodie",
+    "title": "Dark Hoodie",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "parka",
+    "title": "Parka Jacket",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "tracktop",
+    "title": "Tracktop Indigo",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "pocketTshirt",
+    "title": "Pocket T-Shirt",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  },
+  {
+    "img": "linen",
+    "title": "Linen T-Shirt",
+    "price": "$99",
+    "star": "4.6",
+    "review": "75"
+  }
+]

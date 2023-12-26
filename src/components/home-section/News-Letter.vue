@@ -1,5 +1,5 @@
 <template>
-  <div class="news-letter-section">
+  <div class="news-letter-section section">
     <div class="news-letter-title">
       <h1>
         Subscribe to our newsletter and get 10% discount on the first order!

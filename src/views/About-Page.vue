@@ -1,7 +1,18 @@
+<script setup>
+import navHeader from '../components/Navbar.vue';
+import footerContent from '../components/Footer.vue';
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <header>
+    <navHeader />
+  </header>
+  <main>
+    <h1>This is about page</h1>
+  </main>
+  <footer>
+    <footerContent />
+  </footer>
 </template>
 
 <style></style>

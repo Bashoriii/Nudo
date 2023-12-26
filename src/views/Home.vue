@@ -1,10 +1,32 @@
-<script setup>
-import hero from '../components/home-section/Highlight-Hero.vue';
-import featuredCard from '../components/Product-Card.vue';
-import category from '../components/home-section/Categories.vue';
-import newsLetter from '../components/home-section/News-Letter.vue';
-import navHeader from '../components/Navbar.vue';
-import footerContent from '../components/Footer.vue';
+<script>
+// Import MDI icon
+import SvgIcon from '@jamescoyle/vue-icon';
+import { mdiChevronRight } from '@mdi/js';
+
+// Import Components
+import hero from '@/components/home-section/Highlight-Hero.vue';
+import featuredCard from '@/components/Product-Card.vue';
+import category from '@/components/home-section/Categories.vue';
+import newsLetter from '@/components/home-section/News-Letter.vue';
+import navHeader from '@/components/Navbar.vue';
+import footerContent from '@/components/Footer.vue';
+
+export default {
+  components: {
+    hero: hero,
+    featuredCard: featuredCard,
+    category: category,
+    newsLetter: newsLetter,
+    navHeader: navHeader,
+    footerContent: footerContent,
+    SvgIcon,
+  },
+  data() {
+    return {
+      path: mdiChevronRight,
+    };
+  },
+};
 </script>
 
 <template>
@@ -18,9 +40,12 @@ import footerContent from '../components/Footer.vue';
     <!-- Hero Section end -->
 
     <!-- Featured Products Section -->
-    <div class="featured-products-container">
+    <div class="featured-products-container section">
       <div class="featured-product-title">
         <h1>Featured Products</h1>
+        <RouterLink to="#"
+          >See all products <svg-icon type="mdi" :path="path"></svg-icon
+        ></RouterLink>
       </div>
       <!-- Component Card -->
       <featuredCard />
@@ -28,7 +53,7 @@ import footerContent from '../components/Footer.vue';
     <!-- Featured Products Section end -->
 
     <!-- Neppo Profile Section -->
-    <div class="neppo-profile-section">
+    <div class="neppo-profile-section section">
       <div class="neppo-profile-image">
         <img
           src="../assets/images/sandals/highlight-sandal.png"

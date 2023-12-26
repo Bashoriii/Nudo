@@ -1,14 +1,15 @@
 .neppo-footer-section {
-  width: 100%;
-  height: auto;
-}
-
-.footer-content-list {
   width: 95%;
   height: auto;
   margin: auto;
+}
+
+.footer-content-list {
+  width: 100%;
+  height: auto;
+  margin: auto;
   padding: 2rem 0;
-  border-top: 2px solid $arrow;
+  border-top: 2px solid $line;
   display: flex;
 
   .footer-logo {
@@ -21,6 +22,7 @@
       font-size: 2.4rem;
       letter-spacing: 1px;
       text-transform: uppercase;
+      color: $title-txt;
     }
 
     p {
@@ -42,10 +44,6 @@
 
     li {
       margin-bottom: 8px;
-
-      a {
-        color: $txt-color;
-      }
     }
   }
 
@@ -74,7 +72,7 @@
 }
 
 .footer-content-socials {
-  width: 95%;
+  width: 100%;
   height: auto;
   margin: 3rem auto;
   display: flex;
@@ -87,6 +85,7 @@
     .footer-copyright-icon {
       width: 20px;
       height: 20px;
+      color: $regular-txt;
     }
 
     p {
@@ -101,7 +100,7 @@
       &::after {
         content: '';
         display: block;
-        border-bottom: 1px solid $txt-color;
+        border-bottom: 1px solid $regular-txt;
         transform: scaleX(0);
         transition: transform 0.2s ease-out;
         transform-origin: bottom right; // Slides from left to right

@@ -1,7 +1,7 @@
 <template>
-  <div class="neppo-categories-section">
+  <div class="neppo-categories-section section">
     <div class="category-title">
-      <h1>Category</h1>
+      <h1>Catalog</h1>
     </div>
     <div class="category-container">
       <div class="category-list">
@@ -16,7 +16,7 @@
         </RouterLink>
       </div>
       <div class="category-poster">
-        <img src="../assets/images/cat-poster.png" class="" alt="poster" />
+        <img src="@/assets/images/brown-blazzer.png" class="" alt="poster" />
         <!-- <img src="../assets/images/jackets/.png" class="" alt="test" /> -->
       </div>
     </div>
@@ -24,10 +24,10 @@
 </template>
 
 <script>
-import hoodie from '../assets/images/hoodies/orange-crewneck.png';
-import tshirt from '../assets/images/t-shirts/pockets-tshirt.png';
-import jacket from '../assets/images/jackets/harrington-jacket.png';
-import sandal from '../assets/images/sandals/chunky-sandal.png';
+import hoodie from '@/assets/images/hoodies/blue-crewneck.png';
+import tshirt from '@/assets/images/t-shirts/pockets-tshirt.png';
+import jacket from '@/assets/images/jackets/harrington-jacket.png';
+import sandal from '@/assets/images/sandals/chunky-sandal.png';
 export default {
   data() {
     return {
