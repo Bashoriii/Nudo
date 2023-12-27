@@ -28,7 +28,7 @@ const pager = handlePagination();
             <img src="@/assets/images/hoodies/blue-crewneck.png" alt="hoodie" />
           </div>
           <div class="name-product">
-            <h1>Blue Hoodie</h1>
+            <h2>Blue Hoodie</h2>
           </div>
           <div class="price-product">
             <p>$99.99</p>

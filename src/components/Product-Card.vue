@@ -10,7 +10,7 @@
     <swiper-slide
       v-for="item in productDetail"
       :key="item.id"
-      class="neppo-featured-product cards"
+      class="neppo-featured-product featured-cards"
     >
       <div class="product-img">
         <img :src="item.img" class="card-img" alt="featured product" />
